@@ -1,0 +1,53 @@
+.inline-offer {
+  background-color: var(--color-blue-light);
+  color: var(--color-blue-dark);
+  border-radius: 20px;
+  padding: 2.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+
+  h2 {
+    font-size: clamp(1.75rem, 3.5vw, 2.75rem);
+    font-weight: 900;
+    line-height: 1.15;
+    margin: 0;
+  }
+
+  p {
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    line-height: 1.65;
+    margin: 0;
+    opacity: 0.95;
+  }
+
+  button {
+    background-color: var(--color-blue-dark);
+    color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 1.1rem 2rem;
+    font-size: var(--font-small);
+    font-weight: 900;
+    font-style: italic;
+    cursor: pointer;
+    width: 100%;
+    letter-spacing: 0.01em;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .inline-offer {
+    padding: 1.75rem 1.5rem;
+    border-radius: 14px;
+
+    button {
+      padding: 1rem 1.5rem;
+    }
+  }
+}

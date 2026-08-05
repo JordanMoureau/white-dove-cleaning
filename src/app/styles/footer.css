@@ -1,0 +1,109 @@
+.top-foot {
+  background-color: var(--color-blue-light);
+  color: white;
+  font-size: var(--font-primary);
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .blue {
+    color: var(--color-blue-dark);
+  }
+}
+
+footer {
+  color: var(--color-blue-dark);
+  font-family: var(--font-primary);
+  .footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem 1rem 2rem;
+    .row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding-bottom: 2rem;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid lightgray;
+
+      img {
+        max-width: 160px;
+      }
+      h2 {
+        font-weight: 400;
+        max-width: 600px;
+        font-size: var(--font-small);
+      }
+    }
+
+    .lower-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .cta-container {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+      }
+    }
+
+    .col {
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      font-weight: 900;
+      gap: 1rem;
+
+      .indented {
+        font-weight: 400;
+        margin-left: 0.41rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .lower {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: underline;
+    color: gray;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .top-foot {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer .lower {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .footer-inner .lower-row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  footer .footer-inner .row {
+    flex-direction: column;
+    text-align: center;
+  }
+}

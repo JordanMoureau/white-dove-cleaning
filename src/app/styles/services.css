@@ -1,0 +1,221 @@
+.hero-services {
+  position: relative;
+  background-color: var(--color-blue-dark);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  height: 60vh;
+  text-align: left;
+  padding: 5rem;
+  z-index: 0;
+
+  .container {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+}
+
+.hero-services::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/services.jpeg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.deep-clean-services {
+  position: relative;
+  background-color: var(--color-blue-dark);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  height: 60vh;
+  text-align: left;
+  padding: 5rem;
+  z-index: 0;
+
+  .container {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+}
+
+.deep-clean-services::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/deepclean.jpeg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.move-services {
+  position: relative;
+  background-color: var(--color-blue-dark);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  height: 60vh;
+  text-align: left;
+  padding: 5rem;
+  z-index: 0;
+
+  .container {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+}
+
+.move-services::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/moveinmoveout.jpeg");
+  background-size: cover;
+  background-position: bottom;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.recurring-services {
+  position: relative;
+  background-color: var(--color-blue-dark);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  height: 60vh;
+  text-align: left;
+  padding: 5rem;
+  z-index: 0;
+
+  .container {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+}
+
+.recurring-services::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/recurringcleaning.jpeg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.residential-services {
+  position: relative;
+  background-color: var(--color-blue-dark);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  height: 60vh;
+  text-align: left;
+  padding: 5rem;
+  z-index: 0;
+
+  .container {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+}
+
+.residential-services::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/residential.jpeg");
+  background-size: cover;
+  background-position: top;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.service-area {
+  position: relative;
+  background-color: var(--color-blue-dark);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  height: 60vh;
+  text-align: left;
+  padding: 5rem;
+  z-index: 0;
+
+  .container {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+}
+
+.service-area::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/servicearea.jpeg");
+  background-size: cover;
+  background-position: bottom;
+  opacity: 0.7;
+  z-index: 1;
+}

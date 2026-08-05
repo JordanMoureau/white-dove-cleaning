@@ -1,3 +1,9 @@
+# White Dove Cleaning
+
+This project is for a spokane wa/cda id based cleaning service. Primary focus is SEO optimization. We took the client from a godaddy platform website to a clean, lean custom designed site packed with layer by layer optimizations and architecture.
+
+inegrating calendar flow with housecall pro
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
