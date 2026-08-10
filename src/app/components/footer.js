@@ -61,12 +61,18 @@ export default function Footer() {
         </div>
 
         <div className="footer-inner lower row">
-          <Link href={"/priavcy-policy"}>Privacy Policy</Link>
-          <Link href={"/terms-of-service"}>Terms of Service</Link>
-          <p> copy right current year </p>
-          <Link href={"freelancejordan.com"} target="_blank">
-            {" "}
-            site built by freelance jordan
+          <Link href="/privacy-policy">Privacy Policy</Link>
+
+          <Link href="/terms-of-service">Terms of Service</Link>
+
+          <p>© {new Date().getFullYear()} White Dove Cleaning NW</p>
+
+          <Link
+            href="https://freelancejordan.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Site built by Freelance Jordan
           </Link>
         </div>
       </footer>
