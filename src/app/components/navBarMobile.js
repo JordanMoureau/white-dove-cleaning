@@ -93,7 +93,12 @@ export default function NavBarMobile() {
             )
           )}
 
-          <a href="/contact" className="mobile-book-btn">
+          <a
+            href="https://calendly.com/whitedovecleaning/15-minute-call-to-get-help-cleaning"
+            className="mobile-book-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Book A Call
           </a>
         </div>

@@ -90,7 +90,13 @@ export default function NavBar({ color = "inherit" }) {
             </a>
           )
         )}
-        <div className="secondary-button">Book A Clean</div>
+        <Link
+          href="https://calendly.com/whitedovecleaning/15-minute-call-to-get-help-cleaning"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="secondary-button">Book A Clean</div>
+        </Link>
       </div>
     </div>
   );
