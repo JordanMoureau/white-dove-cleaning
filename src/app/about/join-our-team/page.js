@@ -1,5 +1,5 @@
 import JsonLd from "../components/JsonLd";
-import "../styles/aboutpage.css";
+import "../../styles/aboutpage.css";
 import ContactForm from "../components/ContactForm";
 
 const canonical = "https://whitedovecleaningnw.com/join-our-team";
