@@ -71,3 +71,35 @@ git clone https://github.com/JordanMoureau/white-dove-cleaning.git
 cd white-dove-cleaning
 npm install
 ```
+
+Start the local development server:
+
+`npm run dev`
+
+Open http://localhost:3000 in your browser.
+
+## Available Scripts
+
+``npm run dev`
+
+Runs the application in development mode.
+
+``npm run build`
+
+Creates an optimized production build.
+
+``npm run start`
+
+Checks the project for linting issues.
+
+## Deployment
+
+The website is deployed through Vercel, with production builds generated from the connected GitHub repository.
+
+## Project Status
+
+This is an active client project. The website and its SEO content architecture will continue to evolve as new services, locations, and supporting content are added.
+
+## Developer
+
+Designed and developed by Jordan Moureau.
