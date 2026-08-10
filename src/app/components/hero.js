@@ -9,7 +9,12 @@ export default function Hero() {
           and we take cleaning off your list with reliable weekly and bi-weekly
           cleaning services in Tacoma, Spokane and Coeur d'Alene.
         </h2>
-        <a href="/contact" className="primary-button">
+        <a
+          href="https://calendly.com/whitedovecleaning/15-minute-call-to-get-help-cleaning"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="primary-button"
+        >
           FREE ME!
         </a>
       </div>

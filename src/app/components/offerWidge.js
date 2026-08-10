@@ -22,8 +22,13 @@ export default function OfferWidge() {
             up. Get your home deep cleaned this week risk free! Decide later if
             you want to sign up for bi-weekly cleanings.
           </p>
-          <a className="offer-widge__cta" href="tel:+1-000-000-0000">
-            Call Now To Book Your Clean
+          <a
+            className="offer-widge__cta"
+            href="https://calendly.com/whitedovecleaning/15-minute-call-to-get-help-cleaning"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Book Your Clean
           </a>
           <div className="offer-widge__social-proof">
             <div className="offer-widge__stars">
@@ -33,7 +38,10 @@ export default function OfferWidge() {
                 </span>
               ))}
             </div>
-            <a className="offer-widge__reviews-link" href="#reviews">
+            <a
+              className="offer-widge__reviews-link"
+              href="https://share.google/T1MAr42ye3T906cwW"
+            >
               Read Our Reviews
             </a>
           </div>
