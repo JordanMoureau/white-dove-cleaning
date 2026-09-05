@@ -24,7 +24,7 @@ export default function OfferWidge() {
           </p>
           <a
             className="offer-widge__cta"
-            href="https://calendly.com/whitedovecleaning/15-minute-call-to-get-help-cleaning"
+            href="https://calendly.com/whitedovecleaning/15-minute-call-to-get-help-cleaning?month=2026-09"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -1,4 +1,6 @@
 .services-include-container {
+  position: relative;
+  z-index: 3;
   padding: 3rem;
   margin-top: -150px;
   display: flex;
