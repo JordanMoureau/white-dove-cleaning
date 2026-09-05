@@ -34,15 +34,15 @@ const canonical = "https://whitedovecleaningnw.com/";
 
 export const metadata = {
   title:
-    "House Cleaning Services in Spokane & Coeur d’Alene | Weekly & Bi-Weekly Cleaning",
+    "House Cleaning Services in Spokane, Coeur d’Alene & Tacoma | Weekly & Bi-Weekly Cleaning",
   description:
-    "Reliable recurring house cleaning in Spokane, Coeur d’Alene & surrounding areas. Weekly & bi-weekly home cleaning designed to keep your home consistently clean—without the stress.",
+    "Reliable recurring house cleaning in Spokane, Coeur d’Alene, Tacoma & surrounding areas. Weekly & bi-weekly home cleaning designed to keep your home consistently clean—without the stress.",
   alternates: { canonical },
   openGraph: {
     title:
-      "Recurring House Cleaning | Spokane & Coeur d’Alene | White Dove Cleaning",
+      "Recurring House Cleaning | Spokane, Coeur d’Alene & Tacoma | White Dove Cleaning",
     description:
-      "Weekly & bi-weekly home cleaning that keeps your house consistently clean without the overwhelm.",
+      "Weekly & bi-weekly home cleaning in Spokane, Coeur d’Alene and Tacoma that keeps your house consistently clean without the overwhelm.",
     url: canonical,
     siteName: "White Dove Cleaning",
     images: [
@@ -77,6 +77,11 @@ const jsonLd = [
         name: "Coeur d’Alene",
         addressRegion: "ID",
       },
+      {
+        "@type": "City",
+        name: "Tacoma",
+        addressRegion: "WA",
+      },
     ],
   },
   {
@@ -91,12 +96,12 @@ const jsonLd = [
     "@type": "WebPage",
     "@id": `${canonical}#homepage`,
     url: canonical,
-    name: "House Cleaning Services Spokane & Coeur d’Alene",
+    name: "House Cleaning Services Spokane, Coeur d’Alene & Tacoma",
     isPartOf: {
       "@id": `${canonical}#website`,
     },
     description:
-      "Recurring house cleaning services in Spokane and Coeur d’Alene.",
+      "Recurring house cleaning services in Spokane, Coeur d’Alene and Tacoma.",
   },
   {
     "@context": "https://schema.org",
@@ -105,7 +110,7 @@ const jsonLd = [
     provider: {
       "@id": `${canonical}#business`,
     },
-    areaServed: ["Spokane WA", "Coeur d’Alene ID"],
+    areaServed: ["Spokane WA", "Coeur d’Alene ID", "Tacoma WA"],
   },
 ];
 
@@ -125,6 +130,7 @@ export default function HomePage() {
       <div className="services-include-container">
         <div className="services-include">
           <h2>Our Services Include…</h2>
+
           <div className="services-include-inner">
             <div className="services-include-image">
               <img
@@ -139,6 +145,7 @@ export default function HomePage() {
                   <div className="services-include-check">
                     <FiCheckSquare />
                   </div>
+
                   <div>
                     <h3>{item.title}</h3>
                     <p>{item.description}</p>
@@ -149,94 +156,9 @@ export default function HomePage() {
           </div>
         </div>
       </div>
+
       <OfferWidge />
 
-      {/* SERVICES */}
-      {/* <div className="section gray">
-        <div className="container">
-          <h2>Recurring House Cleaning That Works for You</h2>
-
-          <h3>Weekly House Cleaning</h3>
-          <p>
-            Perfect for busy households that need consistent upkeep and a home
-            that always feels clean.
-          </p>
-
-          <h3>Bi-Weekly Cleaning Services</h3>
-          <p>
-            A flexible option that keeps your home under control without the
-            pressure of constant maintenance.
-          </p>
-
-          <h3>Customized Cleaning Plans</h3>
-          <p>
-            Every home is different. We tailor our cleaning approach to fit your
-            space, your priorities, and your schedule.
-          </p>
-
-          <p>
-            Learn more about our{" "}
-            <a href="/services/recurring-cleaning">
-              recurring house cleaning services
-            </a>
-            .
-          </p>
-        </div>
-      </div> */}
-
-      {/* LOCATION */}
-      {/* <div className="section">
-        <div className="container">
-          <h2>Serving Spokane, Coeur d’Alene & Surrounding Areas</h2>
-          <p>
-            We provide house cleaning services throughout Spokane, Spokane
-            Valley, Coeur d’Alene, and nearby communities.
-          </p>
-          <p>
-            If you're searching for house cleaning near you, White Dove Cleaning
-            offers reliable recurring service you can count on.
-          </p>
-        </div>
-      </div> */}
-
-      {/* TRUST */}
-      {/* <div className="section gray">
-        <div className="container">
-          <h2>Why Homeowners Choose White Dove Cleaning</h2>
-          <ul>
-            <li>Consistent, dependable service</li>
-            <li>Detail-focused cleaning every visit</li>
-            <li>Flexible scheduling options</li>
-            <li>Designed for long-term home care—not one-time fixes</li>
-          </ul>
-        </div>
-      </div> */}
-
-      {/* PROCESS */}
-      {/* <div className="section">
-        <div className="container">
-          <h2>How It Works</h2>
-          <ol>
-            <li>Request a quote</li>
-            <li>Choose your schedule</li>
-            <li>We take care of the cleaning</li>
-            <li>You come home to a clean space</li>
-          </ol>
-        </div>
-      </div> */}
-
-      {/* <div className="section cta">
-        <div className="container">
-          <h2>Ready for a consistently clean home?</h2>
-          <p>
-            Let us take cleaning off your plate so you can focus on everything
-            else that matters.
-          </p>
-          <a href="/contact" className="primary-button">
-            Get Your Cleaning Quote
-          </a>
-        </div>
-      </div> */}
       <ContactForm />
     </div>
   );

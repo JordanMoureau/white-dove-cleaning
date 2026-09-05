@@ -2,6 +2,7 @@ import SideBar from "@/app/components/sideBar";
 import JsonLd from "@/app/components/JsonLd";
 import ContactForm from "@/app/components/ContactForm";
 import "@/app/styles/services.css";
+import ServicesSidebar from "@/app/components/servicesSideBar";
 
 const canonical =
   "https://whitedovecleaningnw.com/services/residential-cleaning";
@@ -196,10 +197,10 @@ export default function ResidentialCleaningPage() {
               <p>
                 We provide residential cleaning throughout Spokane, Spokane
                 Valley, Coeur d&apos;Alene, Puyallup, Tacoma, and surrounding
-                areas in Washington and North Idaho. Our team is
-                background-checked, experienced, and committed to delivering a
-                consistent, thorough result on every visit — no matter the size
-                of the home or the frequency of the schedule.
+                areas in Washington and North Idaho. Our team is experienced,
+                and committed to delivering a consistent, thorough result on
+                every visit — no matter the size of the home or the frequency of
+                the schedule.
               </p>
               <p>
                 Not sure if we cover your neighborhood? Reach out and we&apos;ll
@@ -221,11 +222,10 @@ export default function ResidentialCleaningPage() {
               <p>
                 White Dove Cleaning NW is locally owned, faith-driven, and built
                 on a single standard — serving you well is our number one
-                priority. We use eco-friendly products, employ
-                background-checked professionals, and offer flexible scheduling
-                that adapts to your life. Our clients don&apos;t just hire us
-                once. They stay with us because we show up, we communicate, and
-                we deliver results they can count on.
+                priority. We use eco-friendly products and offer flexible
+                scheduling that adapts to your life. Our clients don&apos;t just
+                hire us once. They stay with us because we show up, we
+                communicate, and we deliver results they can count on.
               </p>
               <p>
                 If you&apos;re ready for a cleaner home without the hassle of
@@ -240,7 +240,7 @@ export default function ResidentialCleaningPage() {
           </div>
         </div>
         <div className="col-two">
-          <SideBar />
+          <ServicesSidebar />
         </div>
       </div>
       <ContactForm />

@@ -2,6 +2,7 @@ import SideBar from "@/app/components/sideBar";
 import JsonLd from "@/app/components/JsonLd";
 import ContactForm from "@/app/components/ContactForm";
 import "@/app/styles/services.css";
+import ServicesSidebar from "@/app/components/servicesSideBar";
 
 const canonical = "https://whitedovecleaningnw.com/services/deep-cleaning";
 
@@ -99,9 +100,9 @@ export default function DeepCleaningPage() {
               <p>
                 At White Dove Cleaning NW, our deep cleaning service covers
                 baseboards, inside appliances, grout lines, ceiling fans, window
-                sills, inside cabinets, light fixtures, and every surface in
-                between. It&apos;s the clean you feel the moment you walk
-                through the door — and the one your home has been waiting for.
+                sills, light fixtures, and every surface in between. It&apos;s
+                the clean you feel the moment you walk through the door — and
+                the one your home has been waiting for.
               </p>
             </div>
 
@@ -118,6 +119,12 @@ export default function DeepCleaningPage() {
                 </a>{" "}
                 — getting your home to a consistent baseline so our team can
                 maintain it efficiently on every future visit.
+              </p>
+              <p>
+                A deep clean is also a great choice before bringing home a new
+                baby. Getting the home thoroughly cleaned before your due date
+                can take one major task off your plate and give you a fresh,
+                comfortable space to come home to during those first busy weeks.
               </p>
               <p>
                 Other great times for a deep clean include after a renovation or
@@ -139,10 +146,10 @@ export default function DeepCleaningPage() {
                 Our deep cleaning covers your entire home with a level of detail
                 that standard cleaning simply doesn&apos;t reach. In the
                 kitchen, we clean inside the oven, microwave, and refrigerator,
-                wipe down cabinet fronts and interiors, scrub the sink and
-                fixtures, and degrease surfaces that accumulate buildup over
-                time. Bathrooms get a full scrub — tile, grout, fixtures,
-                toilets, and all the areas that harbor hidden grime.
+                scrub the sink and fixtures, and degrease surfaces that
+                accumulate buildup over time. Bathrooms get a full scrub — tile,
+                grout, fixtures, toilets, and all the areas that harbor hidden
+                grime.
               </p>
               <p>
                 Throughout the rest of the home we dust and wipe ceiling fans,
@@ -171,9 +178,8 @@ export default function DeepCleaningPage() {
               <p>
                 Not sure if we serve your area? Reach out — we&apos;re happy to
                 confirm coverage and get you on the schedule. Our team is
-                background-checked, experienced, and committed to delivering the
-                same thorough result on every visit, no matter the size of the
-                home.
+                experienced, and committed to delivering the same thorough
+                result on every visit, no matter the size of the home.
               </p>
               <a href="/service-area" className="underline-link">
                 View our full service area →
@@ -203,10 +209,12 @@ export default function DeepCleaningPage() {
             </div>
           </div>
         </div>
+
         <div className="col-two">
-          <SideBar />
+          <ServicesSidebar />
         </div>
       </div>
+
       <ContactForm />
     </div>
   );

@@ -12,23 +12,23 @@ export default function HeroSection() {
         </div>
 
         <h1>
-          Top Rated Home Cleaning Services in Pierce County, Spokane, WA and
-          Coeur d&apos;Alene, ID
+          Top Rated Home Cleaning Services in Spokane, Coeur d&apos;Alene &amp;
+          Tacoma
         </h1>
 
         <p>
           Welcome to White Dove Cleaning NW! We provide top-notch home cleaning
-          services in Pierce County and Spokane, WA, including the areas of
-          Puyallup, Tacoma, and Spokane. Our professional and reliable team is
-          dedicated to delivering exceptional cleaning solutions tailored to
-          your needs. Contact us today for a free quote and experience the
-          difference in home cleaning services!
+          services in Spokane, Coeur d&apos;Alene, and Tacoma. Our professional
+          and reliable team is dedicated to delivering exceptional cleaning
+          solutions tailored to your needs. Contact us today for a free quote
+          and experience the difference in home cleaning services!
         </p>
 
         <div className="hero-buttons">
           <a href="/about" className="hero-btn-outline">
             Find Out More
           </a>
+
           <a href="/contact" className="hero-btn-solid">
             Book A Clean
           </a>

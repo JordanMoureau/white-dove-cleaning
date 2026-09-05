@@ -10,8 +10,10 @@ export default function ContactForm() {
     name: "",
     phone: "",
     email: "",
+    zip: "",
     message: "",
   });
+
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -37,9 +39,16 @@ export default function ContactForm() {
 
       if (res.ok) {
         setSubmitted(true);
-        setFormData({ name: "", phone: "", email: "", message: "" });
+        setFormData({
+          name: "",
+          phone: "",
+          email: "",
+          zip: "",
+          message: "",
+        });
       } else {
         const data = await res.json();
+
         setError(
           data?.errors?.[0]?.message ||
             "Something went wrong. Please try again."
@@ -56,12 +65,13 @@ export default function ContactForm() {
     <>
       <section className="contact-section">
         <div className="contact-info">
-          <h2>Reach out & book your first cleaning</h2>
+          <h2>Reach out &amp; book your first cleaning</h2>
+
           <p>
             Welcome to White Dove Cleaning NW! We provide top-notch home
-            cleaning services in Pierce County and Spokane, WA, including the
-            areas of Puyallup, Tacoma, and Spokane. Contact us today for a free
-            quote and experience the difference in home cleaning services!
+            cleaning services in Spokane, Coeur d&apos;Alene, and Tacoma.
+            Contact us today for a free quote and experience the difference in
+            home cleaning services!
           </p>
 
           <div className="contact-details">
@@ -69,6 +79,7 @@ export default function ContactForm() {
               <div className="contact-icon">
                 <FaPhone />
               </div>
+
               <span>(123) 456-7890</span>
             </div>
 
@@ -76,6 +87,7 @@ export default function ContactForm() {
               <div className="contact-icon">
                 <FaEnvelope />
               </div>
+
               <span>info@whitedove.com</span>
             </div>
 
@@ -83,7 +95,8 @@ export default function ContactForm() {
               <div className="contact-icon">
                 <FaMapMarkerAlt />
               </div>
-              <span>Serving Spokane & Coeur D&apos;Alene</span>
+
+              <span>Serving Spokane, Coeur d&apos;Alene &amp; Tacoma</span>
             </div>
           </div>
         </div>
@@ -103,11 +116,12 @@ export default function ContactForm() {
             <>
               <div className="contact-form-group">
                 <label htmlFor="name">Your Name</label>
+
                 <input
                   id="name"
                   name="name"
                   type="text"
-                  placeholder="Jane Smith"
+                  placeholder="Your Name"
                   value={formData.name}
                   onChange={handleChange}
                   disabled={loading}
@@ -116,11 +130,12 @@ export default function ContactForm() {
 
               <div className="contact-form-group">
                 <label htmlFor="phone">Your Phone Number</label>
+
                 <input
                   id="phone"
                   name="phone"
                   type="tel"
-                  placeholder="(509) 000-0000"
+                  placeholder="Your Phone Number"
                   value={formData.phone}
                   onChange={handleChange}
                   disabled={loading}
@@ -129,11 +144,12 @@ export default function ContactForm() {
 
               <div className="contact-form-group">
                 <label htmlFor="email">Your Email Address</label>
+
                 <input
                   id="email"
                   name="email"
                   type="email"
-                  placeholder="jane@email.com"
+                  placeholder="Email Address"
                   value={formData.email}
                   onChange={handleChange}
                   disabled={loading}
@@ -141,7 +157,24 @@ export default function ContactForm() {
               </div>
 
               <div className="contact-form-group">
+                <label htmlFor="zip">ZIP Code</label>
+
+                <input
+                  id="zip"
+                  name="zip"
+                  type="text"
+                  inputMode="numeric"
+                  autoComplete="postal-code"
+                  placeholder="ZIP Code"
+                  value={formData.zip}
+                  onChange={handleChange}
+                  disabled={loading}
+                />
+              </div>
+
+              <div className="contact-form-group">
                 <label htmlFor="message">Message</label>
+
                 <textarea
                   id="message"
                   name="message"

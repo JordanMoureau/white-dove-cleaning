@@ -2,6 +2,7 @@ import SideBar from "@/app/components/sideBar";
 import JsonLd from "@/app/components/JsonLd";
 import ContactForm from "@/app/components/ContactForm";
 import "@/app/styles/services.css";
+import ServicesSidebar from "@/app/components/servicesSideBar";
 
 const canonical = "https://whitedovecleaningnw.com/services/move-in-move-out";
 
@@ -188,9 +189,9 @@ export default function MoveInMoveOutPage() {
               <p>
                 We provide move-in and move-out cleaning throughout Spokane,
                 Spokane Valley, Coeur d&apos;Alene, Puyallup, Tacoma, and the
-                surrounding Pacific Northwest region. Our team is
-                background-checked, experienced, and focused on delivering
-                results that hold up to inspection — literally.
+                surrounding Pacific Northwest region. Our team is experienced,
+                and focused on delivering results that hold up to inspection —
+                literally.
               </p>
               <p>
                 Timing matters when you&apos;re moving, and we understand that.
@@ -207,7 +208,7 @@ export default function MoveInMoveOutPage() {
             <div className="section">
               <h2>
                 Why Spokane &amp; Coeur d&apos;Alene Choose White Dove for Move
-                Cleaning
+                In / Move Out Cleaning
               </h2>
               <p>
                 White Dove Cleaning NW is locally owned and built on a
@@ -229,7 +230,7 @@ export default function MoveInMoveOutPage() {
           </div>
         </div>
         <div className="col-two">
-          <SideBar />
+          <ServicesSidebar />
         </div>
       </div>
       <ContactForm />

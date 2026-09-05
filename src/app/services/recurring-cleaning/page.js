@@ -2,6 +2,7 @@ import SideBar from "@/app/components/sideBar";
 import JsonLd from "@/app/components/JsonLd";
 import ContactForm from "@/app/components/ContactForm";
 import "@/app/styles/services.css";
+import ServicesSidebar from "@/app/components/servicesSideBar";
 
 const canonical = "https://whitedovecleaningnw.com/services/recurring-cleaning";
 
@@ -181,10 +182,9 @@ export default function RecurringCleaningPage() {
               <p>
                 We provide weekly and bi-weekly house cleaning throughout
                 Spokane, Spokane Valley, Coeur d&apos;Alene, Puyallup, Tacoma,
-                and surrounding communities. Our team is background-checked,
-                trained, and committed to showing up consistently — because
-                consistent cleaning only works if you can count on your cleaning
-                team.
+                and surrounding communities. Our team is trained, and committed
+                to showing up consistently — because consistent cleaning only
+                works if you can count on your cleaning team.
               </p>
               <p>
                 If you&apos;re not sure whether we serve your neighborhood,
@@ -226,7 +226,7 @@ export default function RecurringCleaningPage() {
           </div>
         </div>
         <div className="col-two">
-          <SideBar />
+          <ServicesSidebar />
         </div>
       </div>
       <ContactForm />

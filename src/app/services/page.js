@@ -3,6 +3,7 @@ import JsonLd from "../components/JsonLd";
 import ContactForm from "../components/ContactForm";
 import "../styles/services.css";
 import InlineOffer from "../components/InlineOffer";
+import ServicesSidebar from "../components/servicesSideBar";
 
 const canonical = "https://whitedovecleaningnw.com/services";
 
@@ -99,12 +100,11 @@ export default function ServicesPage() {
                 before the holidays, we have a plan that works for you.
               </p>
               <p>
-                Every member of our team is trained, background-checked, and
-                committed to delivering a consistent, thorough clean — every
-                single visit. We don&apos;t cut corners, and we don&apos;t
-                disappear after the first booking. When you choose White Dove,
-                you&apos;re choosing a cleaning partner you can actually count
-                on.
+                Every member of our team is trained, and committed to delivering
+                a consistent, thorough clean — every single visit. We don&apos;t
+                cut corners, and we don&apos;t disappear after the first
+                booking. When you choose White Dove, you&apos;re choosing a
+                cleaning partner you can actually count on.
               </p>
 
               <InlineOffer />
@@ -215,7 +215,7 @@ export default function ServicesPage() {
           </div>
         </div>
         <div className="col-two">
-          <SideBar />
+          <ServicesSidebar />
         </div>
       </div>
       <ContactForm />
