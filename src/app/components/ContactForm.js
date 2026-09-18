@@ -80,7 +80,7 @@ export default function ContactForm() {
                 <FaPhone />
               </div>
 
-              <span>(123) 456-7890</span>
+              <span>(509) 510-7771</span>
             </div>
 
             <div className="contact-item">
