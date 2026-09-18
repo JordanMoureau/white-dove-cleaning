@@ -80,7 +80,7 @@ export default function ContactForm() {
                 <FaPhone />
               </div>
 
-              <span>(509) 510-7771</span>
+              <a href="tel:+15095107771">(509) 510-7771</a>
             </div>
 
             <div className="contact-item">
@@ -88,7 +88,7 @@ export default function ContactForm() {
                 <FaEnvelope />
               </div>
 
-              <span>info@whitedove.com</span>
+              <a href="mailto:info@whitedove.com">info@whitedove.com</a>
             </div>
 
             <div className="contact-item">
