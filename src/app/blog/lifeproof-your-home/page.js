@@ -3,7 +3,7 @@ import JsonLd from "@/app/components/JsonLd";
 import ContactForm from "@/app/components/ContactForm";
 import InlineOffer from "@/app/components/InlineOffer";
 
-const canonical = "https://whitedovecleaningnw.com/lifeproof-your-home";
+const canonical = "https://whitedovecleaningnw.com/blog/lifeproof-your-home";
 
 export const metadata = {
   title:

@@ -4,7 +4,7 @@ import ContactForm from "@/app/components/ContactForm";
 import InlineOffer from "@/app/components/InlineOffer";
 
 const canonical =
-  "https://whitedovecleaningnw.com/top-10-cleaning-tips-for-puyallup-homeowners";
+  "https://whitedovecleaningnw.com/blog/top-10-cleaning-tips-for-puyallup-homeowners";
 
 export const metadata = {
   title: "Top 10 Cleaning Tips for Puyallup Homeowners",

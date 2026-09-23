@@ -2,11 +2,11 @@ import { FaStar } from "react-icons/fa";
 import "../styles/sidebar.css";
 
 const services = [
-  { label: "Weekly Cleanings", href: "/services/weekly" },
-  { label: "Bi-Weekly Cleanings", href: "/services/bi-weekly" },
-  { label: "Monthly Cleanings", href: "/services/monthly" },
-  { label: "Deep Cleanings", href: "/services/deep" },
-  { label: "Move In / Move Out Cleans", href: "/services/move" },
+  { label: "Weekly Cleanings", href: "/services/recurring-cleaning" },
+  { label: "Bi-Weekly Cleanings", href: "/services/recurring-cleaning" },
+  { label: "Monthly Cleanings", href: "/services/recurring-cleaning" },
+  { label: "Deep Cleanings", href: "/services/deep-cleaning" },
+  { label: "Move In / Move Out Cleans", href: "/services/move-in-move-out" },
 ];
 
 const topRated = [

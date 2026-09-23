@@ -61,9 +61,9 @@ export default function Footer() {
         </div>
 
         <div className="footer-inner lower row">
-          <Link href="/privacy-policy">Privacy Policy</Link>
+          <Link href="/">Privacy Policy</Link>
 
-          <Link href="/terms-of-service">Terms of Service</Link>
+          <Link href="/">Terms of Service</Link>
 
           <p>© {new Date().getFullYear()} White Dove Cleaning NW</p>
 

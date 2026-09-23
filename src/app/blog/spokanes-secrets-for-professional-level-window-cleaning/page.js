@@ -4,7 +4,7 @@ import ContactForm from "@/app/components/ContactForm";
 import InlineOffer from "@/app/components/InlineOffer";
 
 const canonical =
-  "https://whitedovecleaningnw.com/spokanes-secrets-for-professional-level-window-cleaning";
+  "https://whitedovecleaningnw.com/blog/spokanes-secrets-for-professional-level-window-cleaning";
 
 export const metadata = {
   title: "Spokane’s Secrets for Professional-Level Window Cleaning",

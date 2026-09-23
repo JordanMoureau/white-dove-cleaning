@@ -3,7 +3,7 @@ import "../styles/aboutpage.css";
 import SideBar from "../components/sideBar";
 import ContactForm from "../components/ContactForm";
 
-const canonical = "https://whitedovecleaningnw.com/about-white-dove";
+const canonical = "https://whitedovecleaningnw.com/about";
 
 export const metadata = {
   title: "About White Dove Cleaning | Spokane & Coeur d’Alene House Cleaning",

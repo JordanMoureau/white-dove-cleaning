@@ -4,7 +4,7 @@ import ContactForm from "@/app/components/ContactForm";
 import InlineOffer from "@/app/components/InlineOffer";
 
 const canonical =
-  "https://whitedovecleaningnw.com/why-tacoma-residents-trust-white-dove-cleaning-nw";
+  "https://whitedovecleaningnw.com/blog/why-tacoma-residents-trust-white-dove-cleaning-nw";
 
 export const metadata = {
   title: "Why Tacoma Residents Trust White Dove Cleaning NW",

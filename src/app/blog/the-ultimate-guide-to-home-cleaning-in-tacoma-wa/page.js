@@ -4,7 +4,7 @@ import ContactForm from "@/app/components/ContactForm";
 import InlineOffer from "@/app/components/InlineOffer";
 
 const canonical =
-  "https://whitedovecleaningnw.com/the-ultimate-guide-to-home-cleaning-in-tacoma-wa";
+  "https://whitedovecleaningnw.com/blog/the-ultimate-guide-to-home-cleaning-in-tacoma-wa";
 
 export const metadata = {
   title: "The Ultimate Guide to Home Cleaning in Tacoma, WA",
