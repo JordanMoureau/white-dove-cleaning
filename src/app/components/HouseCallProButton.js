@@ -8,6 +8,14 @@ export default function HousecallProButton({
   children,
 }) {
   const openBookingModal = () => {
+    if (typeof window.gtag === "function") {
+      window.gtag("event", "conversion", {
+        send_to: "AW-17871077811/6TkoCIjNzYkdELODzMlC",
+        value: 1.0,
+        currency: "USD",
+      });
+    }
+
     if (window.HCPWidget) {
       window.HCPWidget.openModal();
     } else {
