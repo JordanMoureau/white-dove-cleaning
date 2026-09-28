@@ -4,7 +4,7 @@ import ContactForm from "@/app/components/ContactForm";
 import InlineOffer from "@/app/components/InlineOffer";
 
 const canonical =
-  "https://whitedovecleaningnw.com/the-spokane-homeowners-guide-to-eco-friendly-cleaning-practices";
+  "https://whitedovecleaningnw.com/blog/the-spokane-homeowners-guide-to-eco-friendly-cleaning-practices";
 
 export const metadata = {
   title: "The Spokane Homeowner’s Guide to Eco-Friendly Cleaning Practices",

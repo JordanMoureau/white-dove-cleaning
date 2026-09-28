@@ -4,7 +4,7 @@ import ContactForm from "@/app/components/ContactForm";
 import InlineOffer from "@/app/components/InlineOffer";
 
 const canonical =
-  "https://whitedovecleaningnw.com/top-10-cleaning-tips-to-keep-your-tacoma-home-allergy-free";
+  "https://whitedovecleaningnw.com/blog/top-10-cleaning-tips-to-keep-your-tacoma-home-allergy-free";
 
 export const metadata = {
   title: "Top 10 Cleaning Tips to Keep Your Tacoma Home Allergy-Free",
