@@ -379,7 +379,7 @@ export default function SpecialOffer() {
             </p>
             <div className="offer-location__items">
               <a href="tel:+15091234567" className="offer-location__item">
-                <FaPhone /> (509) 123-4567
+                <FaPhone /> (509) 510-7771
               </a>
               <a
                 href="mailto:info@whitedovecleaning.com"
