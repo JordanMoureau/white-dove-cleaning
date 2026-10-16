@@ -137,7 +137,7 @@ export default function ServiceAreaPage() {
       {/* HERO */}
       <div className="service-area">
         <div className="container">
-          <h1>Serving Washington &amp; North Idaho &amp; Tacoma</h1>
+          <h1>Serving Spokane &amp; Coeur d'Alene, Tacoma & more</h1>
 
           <h2>
             Professional home cleaning in Spokane, Coeur d&apos;Alene, Tacoma,
@@ -160,7 +160,8 @@ export default function ServiceAreaPage() {
               <h2>Local House Cleaning Across the Pacific Northwest</h2>
 
               <p>
-                White Dove Cleaning NW provides professional house cleaning
+                White Dove Cleaning NW provides professional{" "}
+                <a href="/services/residential-cleaning">house cleaning</a>{" "}
                 across communities in Washington and North Idaho. Our primary
                 service areas include Spokane, Coeur d&apos;Alene, Tacoma,
                 Puyallup, and communities throughout the surrounding areas.
@@ -187,9 +188,13 @@ export default function ServiceAreaPage() {
               </p>
 
               <p>
-                Spokane clients can choose from recurring weekly or bi-weekly
-                cleaning, one-time cleaning, deep cleaning, and move-related
-                cleaning depending on what their home needs.
+                Spokane clients can choose from{" "}
+                <a href="/services/recurring-cleaning">
+                  recurring weekly or bi-weekly cleaning
+                </a>
+                , one-time cleaning,{" "}
+                <a href="/services/deep-cleaning">deep cleaning</a>, and
+                move-related cleaning depending on what their home needs.
               </p>
 
               <a href="/contact" className="underline-link">
@@ -203,7 +208,10 @@ export default function ServiceAreaPage() {
 
               <p>
                 Our Spokane-area team also serves homes in Coeur d&apos;Alene
-                and North Idaho. We provide dependable residential cleaning
+                and North Idaho. We provide dependable{" "}
+                <a href="/services/residential-cleaning">
+                  residential cleaning
+                </a>{" "}
                 designed around the needs of your household and the schedule
                 that works best for you.
               </p>
@@ -232,10 +240,13 @@ export default function ServiceAreaPage() {
               </p>
 
               <p>
-                For clients who want their home consistently maintained, weekly
-                and bi-weekly cleaning are at the heart of what we do. We can
-                also help when your home needs a one-time clean, deeper
-                attention, or cleaning during a move.
+                For clients who want their home consistently maintained,{" "}
+                <a href="/services/recurring-cleaning">
+                  weekly and bi-weekly cleaning
+                </a>{" "}
+                are at the heart of what we do. We can also help when your home
+                needs a one-time clean, deeper attention, or{" "}
+                <a href="/services/move-in-move-out">cleaning during a move</a>.
               </p>
 
               <a href="/contact" className="underline-link">
@@ -249,9 +260,10 @@ export default function ServiceAreaPage() {
 
               <p>
                 Our Pierce County service area includes Puyallup, where White
-                Dove Cleaning provides professional home cleaning for clients
-                who want reliable help keeping their homes clean without losing
-                hours of their own time every week.
+                Dove Cleaning provides professional{" "}
+                <a href="/services/residential-cleaning">home cleaning</a> for
+                clients who want reliable help keeping their homes clean without
+                losing hours of their own time every week.
               </p>
 
               <p>
