@@ -15,7 +15,16 @@ const links = [
       { label: "Residential Cleaning", href: "/services/residential-cleaning" },
     ],
   },
-  { label: "Service Area", href: "/service-area" },
+
+  {
+    label: "Service Area",
+    href: "/service-area",
+    dropdown: [
+      { label: "Spokane, WA", href: "/service-area/spokane-wa" },
+      { label: "Coeur d'Alene, ID", href: "/service-area/coeur-d-alene" },
+      { label: "Tacoma, WA", href: "/service-area/tacoma-wa" },
+    ],
+  },
 
   { label: "Contact", href: "/contact" },
   // {
